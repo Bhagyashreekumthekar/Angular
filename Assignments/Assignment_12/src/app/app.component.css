@@ -28,7 +28,29 @@ body {
 } */
 
 .whole-page {
+  border-width: 3px;
+  border-style: solid;
+  margin: 100px;
+  padding: 20px;
+  font-family: sans-serif;
   justify-content: center;
-  width: 700;
+}
+
+.container {
+  justify-content: center;
+  width: 600;
   height: 400;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 400px 200px;
+  justify-content: center;
+  width: 400;
+  height: 300;
+  text-align: center;
+}
+
+.ImageRef {
+  grid-column-start: 1 /-1;
 }
