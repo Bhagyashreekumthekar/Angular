@@ -1,0 +1,12 @@
+<h2>Assignment 9_3</h2>
+<h2>Enter the number</h2>
+<input type="text" [(ngModel)]="Num" />
+<h2>Enter the type you want to check from dropdown</h2>
+<!--<input type="text" [(ngModel)]="Param" />-->
+<select [(ngModel)]="Param">
+  <option value="Prime">Prime</option>
+  <option value="Perfect">Perfect</option>
+  <option value="Even">Even</option>
+  <option value="Odd">Odd</option>
+</select>
+<h2>The value you entered is: {{ Num | marvellousChk : Param }}</h2>

@@ -1,0 +1,34 @@
+/* .header {
+  font-size: 40px;
+  text-align: center;
+  justify-content: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 800px;
+}
+
+.form {
+  padding: 20 px;
+  border-radius: 8px;
+  display: flex;
+  gap: 20px;
+}
+.username {
+  gap: 20px;
+}
+
+.formfield {
+  flex: 1;
+  gap: 20px;
+} */
+
+.whole-page {
+  justify-content: center;
+  width: 700;
+  height: 400;
+}

@@ -1,0 +1,8 @@
+<h2 style="color: rgb(227, 90, 117)">Data length using ngModel</h2>
+<input [(ngModel)]="data" type="text" />
+<h2>data Length is : {{ data.length }}</h2>
+
+<h2>------------------------------</h2>
+<h2 style="color: rgb(98, 98, 241)">Using EventListener</h2>
+<input #Data2 type="text" (input)="Printlength(Data2.value)" />
+<h2>data Length is : {{ len }}</h2>
